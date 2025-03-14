@@ -38,7 +38,6 @@ temperaturas = [
 # Nombres de las ciudades
 ciudades = ["Santo Domingo", "Cuenca", "Quito"]
 
-# Calcular el promedio de temperaturas por ciudad y semana
 for i in range(len(ciudades)):  # Iterar sobre ciudades
     print(f"Promedios de temperatura para {ciudades[i]}:")
     for j in range(len(temperaturas[i])):  # Iterar sobre semanas
