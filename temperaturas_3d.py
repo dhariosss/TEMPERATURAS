@@ -1,6 +1,6 @@
-# Definir la matriz 3D: ciudades, días, semanas
+
 temperaturas = [
-    # Ciudad A
+    # Santo Domingo	
     [
         # Semana 1
         [25, 26, 27, 28, 29, 30, 31],  # Lunes a Domingo
@@ -11,7 +11,7 @@ temperaturas = [
         # Semana 4
         [22, 23, 24, 25, 26, 27, 28]
     ],
-    # Ciudad B
+    # Cuenca 
     [
         # Semana 1
         [20, 21, 22, 23, 24, 25, 26],
@@ -22,7 +22,7 @@ temperaturas = [
         # Semana 4
         [17, 18, 19, 20, 21, 22, 23]
     ],
-    # Ciudad C
+    # Quito 
     [
         # Semana 1
         [30, 31, 32, 33, 34, 35, 36],
@@ -36,7 +36,7 @@ temperaturas = [
 ]
 
 # Nombres de las ciudades
-ciudades = ["Ciudad A", "Ciudad B", "Ciudad C"]
+ciudades = ["Santo Domingo", "Cuenca", "Quito"]
 
 # Calcular el promedio de temperaturas por ciudad y semana
 for i in range(len(ciudades)):  # Iterar sobre ciudades
@@ -45,4 +45,4 @@ for i in range(len(ciudades)):  # Iterar sobre ciudades
         semana = temperaturas[i][j]
         promedio = sum(semana) / len(semana)
         print(f"  Semana {j + 1}: {promedio:.2f}°C")
-    print()  # Espacio entre ciudades
+    print() 
